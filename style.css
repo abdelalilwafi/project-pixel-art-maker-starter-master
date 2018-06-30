@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zneHmuZ9oQEvEx0EJkrjhNb9ecxpGU096poxq2RN2plTHvmRGA') no-repeat ;
+    background-size:cover ;
+
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    background-color: azure;
+    border: 3px dashed coral;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+  font-size: 2em;
+    color: red;
+  font-family:monospace;
+}
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    background: lightgrey;
+}
+
+input[type=number]:focus{
+  border:1px solid aquamarine;
+background: white;
+}
+
+#envoyer{
+  background-color: #80c639;
+  width: 90px;
+  height: 30px;
+  color: white;
+
+
+}
+form,.content{
+  color:white;
+font-size:1.5em;
+  font-family:monospace;
+}
+
+#envoyer:hover {
+  background-color: gray;
+  color: white;
+}
+
